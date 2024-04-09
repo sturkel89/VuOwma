@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
+## 2.2.0 - 2024-04-09
+
+### Added
+
+- Nothing.
+
+### Changed
+
+- The minimum PHP version requirement has been raised to 8.1.
+- Dependencies have been updated.
+
+### Deprecated
+
+- Nothing.
+
+### Removed
+
+- Nothing.
+
+### Fixed
+
+- Nothing.
+
 ## 2.1.0 - 2023-03-24
 
 ### Added
