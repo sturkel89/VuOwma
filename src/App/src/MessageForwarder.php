@@ -126,6 +126,7 @@ class MessageForwarder
         $body[] = [
             'type' => 'TextBlock',
             'text' => $message['text'],
+            'wrap' => true,
         ];
         return [
             'type' => 'message',
@@ -138,6 +139,7 @@ class MessageForwarder
                         'type' => 'AdaptiveCard',
                         'version' => '1.2',
                         'body' => $body,
+                        'msteams' => ['width' => 'Full'],
                     ],
                 ],
             ],
